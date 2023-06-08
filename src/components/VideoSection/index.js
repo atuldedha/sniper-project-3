@@ -35,7 +35,7 @@ const VideoSection = () => {
 
       {/* points and video */}
       <div className="flex items-center flex-col-reverse lg:flex-row space-x-8 w-full">
-        <div className="flex flex-col items-start space-y-2 basis-2/3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 lg:space-y-2 basis-2/3">
           {/* points */}
           {points?.map((point, index) => (
             <div
