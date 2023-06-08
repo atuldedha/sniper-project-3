@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Banner from "./components/Banner";
+import DemoBanner from "./components/DemoBanner";
+import VideoSection from "./components/VideoSection";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="px-24 py-10 flex flex-col">
+      {/* top banner section */}
+      <section className="pb-7">
+        <Banner name="James" />
+      </section>
+
+      {/* video section */}
+      <section className="pb-32">
+        <VideoSection />
+      </section>
+
+      {/* demo banner section */}
+      <section className="pb-7">
+        <DemoBanner />
+      </section>
     </div>
   );
 }
