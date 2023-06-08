@@ -1,5 +1,6 @@
 import Banner from "./components/Banner";
 import DemoBanner from "./components/DemoBanner";
+import SetupSection from "./components/SetupSection";
 import VideoSection from "./components/VideoSection";
 
 function App() {
@@ -18,6 +19,11 @@ function App() {
       {/* demo banner section */}
       <section className="pb-7">
         <DemoBanner />
+      </section>
+
+      {/* setup section */}
+      <section className="pb-7">
+        <SetupSection />
       </section>
     </div>
   );

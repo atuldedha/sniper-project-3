@@ -13,7 +13,9 @@ module.exports = {
         gray1: "#3B3840",
         gray2: "#838187",
         gray3: "#3A3A3A",
+        gray4: "#ECEBEE",
         green1: "#48BA6F",
+        green2: "#D9F8E3",
         borderPurple: "#461E8533",
       },
       fontFamily: {
