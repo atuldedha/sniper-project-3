@@ -13,7 +13,7 @@ const VideoSection = () => {
   ];
   const [checked, setChecked] = useState(new Array(points.length).fill(false));
 
-  const handleCheckboxClick = (index) => {
+  const handleCheckboxClick = (_, index) => {
     setChecked((prev) =>
       prev.map((item, i) => {
         if (i === index) {
@@ -22,7 +22,6 @@ const VideoSection = () => {
       })
     );
   };
-
   return (
     <div className="shadow-large rounded-2xl bg-white px-4 py-3 lg:px-10 lg:py-8">
       {/* heading */}

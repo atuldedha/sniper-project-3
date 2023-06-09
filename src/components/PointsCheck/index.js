@@ -11,7 +11,7 @@ const PointsCheck = ({ checked, handleCheckboxClick, index, text }) => {
             ? "bg-green1 border border-green1"
             : "bg-white border border-gray3"
         }`}
-        onClick={() => handleCheckboxClick(index)}
+        onClick={(e) => handleCheckboxClick(e, index)}
       >
         {checked && (
           <img src={Check} alt="check" className="w-2 h-2 object-contain" />
