@@ -53,7 +53,7 @@ const VideoSection = () => {
           ))}
         </div>
         {/* video */}
-        <div className="flex flex-col space-y-4 items-center">
+        <div className="flex flex-col space-y-4 items-center max-w-xl">
           {/* video cpomponent */}
           <div className="w-full h-60 rounded-lg">
             <ReactPlayer
