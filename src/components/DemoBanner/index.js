@@ -3,7 +3,7 @@ import Placeholder from "../../images/demoModePlaceholder.svg";
 
 const DemoBanner = () => {
   return (
-    <div className="bg-pink1 pl-14 pr-8 py-10 flex items-center md:space-x-12 relative rounded-2xl">
+    <div className="bg-pink1 pl-4 pr-4 py-5 lg:pl-14 lg:pr-8 lg:py-10 flex items-center md:space-x-12 relative rounded-2xl">
       {/* img  */}
       <div className="hidden md:inline-flex basis-1/2">
         <img

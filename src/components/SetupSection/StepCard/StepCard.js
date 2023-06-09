@@ -63,14 +63,14 @@ const StepCard = ({
 
   return (
     <div
-      className="flex flex-col bg-white px-5 py-7 items-start w-full rounded-2xl shadow-large cursor-pointer"
+      className="flex flex-col bg-white px-3 py-4 lg:px-5 lg:py-7 items-start w-full rounded-2xl shadow-large cursor-pointer"
       onClick={() => handleCardClick(index)}
     >
       {/* headng */}
       <div className="flex items-center justify-between pb-5 w-full">
         {/* left content */}
         <div className="flex flex-col items-start">
-          <span className="font-nuni font-extarbold text-base text-gray1 block pb-2">
+          <span className="font-nuni font-extrabold text-sm lg:text-base text-gray1 block pb-2">
             {stepTitle}
           </span>
           <span className="font-nuni font-normal text-xs md:text-sm text-gray1">
@@ -83,7 +83,7 @@ const StepCard = ({
             inProgress || wholeStepCompleted
               ? "bg-green2 text-green1"
               : "text-gray2 bg-gray4"
-          } font-nuni font-bold text-sm`}
+          } font-nuni font-bold text-sm rounded-lg`}
         >
           {wholeStepCompleted
             ? "Completed"
