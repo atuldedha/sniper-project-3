@@ -9,7 +9,7 @@ const DemoBanner = () => {
         <img
           src={Placeholder}
           alt="placeholder"
-          className="absolute bottom-0 left-0 lg:left-12 w-52 lg:w-64 xl:w-80 object-contain"
+          className="absolute bottom-0 left-0 lg:left-12 w-40 lg:w-64 xl:w-72 object-contain"
         />
       </div>
 

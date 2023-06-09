@@ -102,7 +102,7 @@ const StepCard = ({
           {steps?.map((point, index) => (
             <div
               key={index}
-              className="w-full py-5 px-4 cursor-pointer hover:bg-pink2 hover:rounded-lg"
+              className="w-full py-5 px-4 cursor-pointer hover:bg-pink2 hover:rounded-lg mt-2"
               onClick={(e) => handleCheckboxClick(e, index)}
             >
               <PointsCheck
